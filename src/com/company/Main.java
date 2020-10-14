@@ -91,7 +91,7 @@ public class Main {
                 System.out.println(nameTwo + " wins!");
             }
             System.out.println("Play another game? (y/n) ");
-            yorn = scanner.next();
+            yorn = scanner.next().toLowerCase();
         }
         while (yorn.equals("y"));
     }
